@@ -1,0 +1,18 @@
+{
+  "name": "my_first_ts_app",
+  "version": "1.0.0",
+  "description": "My First TypeScript App",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yongcail",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "typescript": "^3.4.5"
+  }
+}
